@@ -1,0 +1,22 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore built application files
+/dist/
+/out/
+
+# Ignore log files
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore npm debugging log
+npm-debug.log*
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Electron build directories
+/build/
+/release/

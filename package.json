@@ -1,0 +1,43 @@
+{
+  "name": "Bonfire",
+  "version": "1.0.0",
+  "description": "Bonfire | The JavaScript playground for your desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "JavaScript",
+    "playground"
+  ],
+  "author": "Sarfaraz Muhammad Sajib",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.3.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-updater": "^6.1.8"
+  },
+  "build": {
+    "appId": "com.bonfire.app",
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.8"
+  }
+}
