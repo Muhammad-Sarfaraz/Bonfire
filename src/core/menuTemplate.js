@@ -47,7 +47,7 @@ const createMenuTemplate = (mainWindow) => {
           click() {
             dialog.showMessageBox({
               type: "info",
-              message: `XApp Version: ${app.getVersion()}\n\nCopyright © 2024xy Sarfaraz Muhammad Sajib `,
+              message: `XApp Version: ${app.getVersion()}\n\nSpecial Thanks to Taylor Otwell\n\n Copyright © 2024xy Sarfaraz Muhammad Sajib `,
               buttons: ["OK"],
             });
           },
